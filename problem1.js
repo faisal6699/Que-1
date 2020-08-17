@@ -10,10 +10,7 @@ let notifications = [
 
 var countdown = function(value) {
     if (value < 5) {
-        if(notifications[value].message !== 'Sit'){
-        notifications[value].read = false
-        //console.log(value)
-    }
+        notifications[value].allRead = false
     return countdown(value + 1);
     } 
 };

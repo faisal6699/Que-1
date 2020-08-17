@@ -1,0 +1,11 @@
+{
+  "name": "assignment-1",
+  "version": "1.0.0",
+  "description": "problem",
+  "main": "problem1.js",
+  "scripts": {
+    "test": "node problem1.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
